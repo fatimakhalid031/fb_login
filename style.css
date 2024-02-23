@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{ 
 height:100vh;
 background-color: #f0f2f5;
@@ -104,6 +106,7 @@ input:hover
 .fp{
     text-align: center;
     color:rgb(0, 60, 255);
+    text-decoration: none;
 }
 
 .itemsleft{
@@ -111,6 +114,7 @@ input:hover
     display:flex;
     flex-direction:column;
     justify-content:center;
+    margin-left:30px;
 }
 
 img{
@@ -147,6 +151,10 @@ li{
     flex-direction:row;
     justify-content: space-around;
     padding:5px;
+}
+li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .fline{
