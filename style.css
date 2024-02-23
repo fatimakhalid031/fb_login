@@ -6,33 +6,22 @@
 
 body{ 
 height:100vh;
-background-color: rgb(234, 232, 236);
+background-color: #f0f2f5;
 }
-
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
   
 .main{
     display:flex;
     flex-direction:row;
-    font-family: "Roboto", sans-serif;
+    font-family: "Arial", sans-serif;
     flex-wrap: wrap;
 }
 
-h4{
+.caption{
     padding-left:40px;
     margin-top:-20px;
-    font-size:24px;
-    font-family: "Roboto", sans-serif;
+    font-size:28px;
+    font-weight: thin;
+    font-family: "Poppins", sans-serif;
 }
 
 .left{
@@ -59,26 +48,28 @@ form{
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    width:425px;
+    width:375px;
     height:350px;
 }
 
 .login{
     background-color: white;
-    border-radius:10px;
+    border:none;
+    border-radius:8px;
     height:350px;
-    width:450px;
+    width:400px;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    box-shadow: -19px 23px 33px 1px rgba(0,0,0,0.38);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
 input{
+    border:1px solid #dddfe2;
     height:50px;
     border-radius: 5px;
-    border-width:0.5px;
+    /*border-width:0.5px;*/
     font-size:18px;
     padding-left:10px;
 }
@@ -97,13 +88,17 @@ input:hover
     border-width:0;
 }
 
+.ca{
+    display:flex;
+    justify-content: center;
+}
 .createaccount{
     background-color: rgb(72, 204, 72);
     color:white;
     width:200px;
     font-weight:bolder;
     border:none;
-    margin-left: 115px;
+    text-align:center;
 }
 
 .fp{
@@ -127,6 +122,56 @@ min-width:200px;
 
 p{
     margin-top:10px;
+}
+
+footer{
+height:25vh;
+background-color: white;
+color:#8a8d91;
+padding:1rem;
+padding-bottom: 1rem;
+
+}
+
+.mainfooter{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+ul{
+    list-style-type: none;
+}
+
+li{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:5px;
+}
+
+.fline{
+    height: 1px;
+    color: solid #dddfe2;
+    
+    
+}
+.lang{
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.bottom{
+    padding:10px;
+}
+.top{
+    padding:10px;
+}
+
+.blist{
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
