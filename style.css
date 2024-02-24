@@ -86,7 +86,7 @@ input:hover
 .loginbtn{
     color:white;
     font-weight:bolder;
-    background-color:blue;
+    background-color:#0866ff;
     border-width:0;
 }
 
@@ -105,10 +105,12 @@ input:hover
 
 .fp{
     text-align: center;
-    color:rgb(0, 60, 255);
+    color:#0866ff;
     text-decoration: none;
 }
-
+.fp:hover{
+    text-decoration: underline;
+}
 .itemsleft{
     /*background-color: palegreen;*/
     display:flex;
