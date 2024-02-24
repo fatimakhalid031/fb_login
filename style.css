@@ -10,20 +10,17 @@ body{
 height:100vh;
 background-color: #f0f2f5;
 }
-  
+  .check{
+    position: absolute;
+    opacity: 50%;
+    height:100vh;
+    width:100%;
+  }
 .main{
     display:flex;
     flex-direction:row;
     font-family:"Poppins", sans-serif;
     flex-wrap: wrap;
-}
-
-.caption{
-    padding-left:40px;
-    margin-top:-20px;
-    font-size:28px;
-    font-weight: thin;
-    font-family: "Poppins", sans-serif;
 }
 
 .left{
@@ -39,11 +36,12 @@ background-color: #f0f2f5;
 .right{
     height:100vh;
     width:50%;
-   /* background-color: yellow;*/
+   /*background-color: yellow;*/
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    margin-left:-50px;
 }
 
 form{    
@@ -58,7 +56,7 @@ form{
     background-color: white;
     border:none;
     border-radius:8px;
-    height:350px;
+    height:330px;
     width:400px;
     display:flex;
     flex-direction:column;
@@ -95,7 +93,7 @@ input:hover
     justify-content: center;
 }
 .createaccount{
-    background-color: rgb(72, 204, 72);
+    background-color: #42B72A;
     color:white;
     width:200px;
     font-weight:bolder;
@@ -116,15 +114,28 @@ input:hover
     display:flex;
     flex-direction:column;
     justify-content:center;
-    margin-left:30px;
+    margin-left:200px;
+    margin-top:-100px;
 }
 
 img{
     padding:0;
-    margin:0;
+    margin-left:-70px;
+    height:106px;
 width:400px;
 min-width:200px;
 }
+
+.caption{
+    padding-left:0px 0px 20px;
+    margin-top:-10px;
+    font-size:25px;
+    line-height: 32px;
+    width:500px;
+    font-weight: thin;
+    font-family: "Poppins", sans-serif;
+}
+
 
 p{
     margin-top:25px;
@@ -219,9 +230,16 @@ li:hover{
     margin-top:4vh;
     height:auto;
    }
+.caption{
+    display:block;
+    margin:0;
+    padding:0;
+    width:auto;
+}
    .itemsleft{
     justify-content: center;
     align-items: center;
+    padding-top:100px;
     padding-left:0px;
     margin-left: 0px;
    }
