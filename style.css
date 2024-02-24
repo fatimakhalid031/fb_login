@@ -129,10 +129,12 @@ p{
 }
 
 footer{
-height:25vh;
+height:30vh;
 background-color: white;
 color:#8a8d91;
-padding:1rem;
+padding-left:3rem;
+padding-right:3rem;
+padding-top:1rem;
 padding-bottom: 1rem;
 
 }
@@ -157,7 +159,18 @@ li:hover{
     text-decoration: underline;
     cursor: pointer;
 }
-
+.plus{
+    background-color: #f5f6f7; 
+    color:black; 
+    font-weight:bolder; 
+    padding-left: 15px;
+     padding-right: 15px;
+      border-radius: 5px; 
+      margin-left:10px; 
+     font-size:20px;
+      border-color: purple /*#ccd0d5*/; 
+    
+}
 .fline{
     height: 1px;
     color: solid #dddfe2;
@@ -210,6 +223,7 @@ li:hover{
     padding-left:0px;
     margin-left: 0px;
    }
+   
 }
 
 
