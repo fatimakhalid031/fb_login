@@ -10,23 +10,17 @@ body{
 height:100vh;
 background-color: #f0f2f5;
 }
-  /*.check{
-    position: absolute;
-    opacity: 50%;
-    height:100vh;
-    width:100%;
-  }*/
+  
 .main{
     display:flex;
     flex-direction:row;
-    font-family:"Poppins", sans-serif;
+    font-family:"Poppins" Sans-serif;
     flex-wrap: wrap;
 }
 
 .left{
     height:100vh;
     width:50%;
-    /*background-color: aqua;*/
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -36,7 +30,6 @@ background-color: #f0f2f5;
 .right{
     height:100vh;
     width:50%;
-   /*background-color: yellow;*/
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -69,16 +62,8 @@ input{
     border:1px solid #dddfe2;
     height:50px;
     border-radius: 5px;
-    /*border-width:0.5px;*/
     font-size:18px;
     padding-left:10px;
-}
-.line{
-    align-items: center;
-    border-bottom: 1px solid #dadde1;
-    display: flex;
-    margin: 20px 16px;
-    text-align: center;
 }
 
 input:hover
@@ -99,6 +84,25 @@ input:hover
     display:flex;
     justify-content: center;
 }
+
+.fp{
+    text-align: center;
+    color:#0866ff;
+    text-decoration: none;
+    font-family:Poppins , Sans-serif;
+}
+.fp:hover{
+    text-decoration: underline;
+}
+
+.line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
 .createaccount{
     background-color: #42B72A;
     color:white;
@@ -108,17 +112,7 @@ input:hover
     text-align:center;
 }
 
-.fp{
-    text-align: center;
-    color:#0866ff;
-    text-decoration: none;
-}
-.fp:hover{
-    text-decoration: underline;
-}
-
 .itemsleft{
-    /*background-color: palegreen;*/
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -164,22 +158,26 @@ padding-bottom: 1rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    margin-left:110px;
-    margin-right:110px; 
+    margin-left:125px;
+    margin-right:125px; 
+    
 }
 
 ul{
     list-style-type: none;
+    
 }
 
 li{
     display:flex;
     flex-direction:row;
     justify-content: space-around;
-    padding:3px;
-
-
+    padding:0;
+    margin-right:15px;
+    font-size: 12px;
+    font-family:"Poppins" , Sans-serif;
 }
+
 li:hover{
     text-decoration: underline;
     cursor: pointer;
@@ -193,24 +191,13 @@ li:hover{
         padding: 0px 8px;
         width: 12px;
         height: 18px;
-    
 }
-/*
-.plus{
-    background-color: #f5f6f7; 
-    color:black; 
-    font: weight 60px; 
-    padding-left: 15px;
-     padding-right: 15px;
-      border-radius: 5px; 
-      margin-left:10px; 
-     font-size:20px;
-      border-color:#ccd0d5;  
-}*/
 
 .fline{
-    height: 1px;
-    color: solid #dddfe2;    
+        margin-bottom: 8px;
+        height: 8px;
+        border-bottom: 1px solid rgb(221, 223, 226)/* #dadde1*/;
+        width:auto;
 }
 
 .lang{
@@ -220,7 +207,9 @@ li:hover{
 }
 
 .bottom{
-    padding:10px;
+        height: 57px;
+        line-height: 19.2px;
+        padding: 0;     
 }
 
 .blist{
@@ -228,6 +217,7 @@ li:hover{
     justify-content: left;
     flex-wrap: wrap;
     flex-direction: row;
+    padding:0;
 }
 
 
