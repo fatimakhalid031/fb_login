@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body{ 
 height:100vh;
 background-color: #f0f2f5;
@@ -151,7 +149,6 @@ padding-left:3rem;
 padding-right:3rem;
 padding-top:1rem;
 padding-bottom: 1rem;
-
 }
 
 .mainfooter{
@@ -159,13 +156,11 @@ padding-bottom: 1rem;
     flex-direction: column;
     justify-content: center;
     margin-left:125px;
-    margin-right:125px; 
-    
+    margin-right:125px;  
 }
 
 ul{
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
 
 li{
@@ -189,14 +184,12 @@ li:hover{
         border-color: rgb(204, 208, 213);
         box-sizing: content-box;
         padding: 0px 8px;
-        width: 12px;
-        height: 18px;
-}
+    }
 
 .fline{
         margin-bottom: 8px;
         height: 8px;
-        border-bottom: 1px solid rgb(221, 223, 226)/* #dadde1*/;
+        border-bottom: 1px solid rgb(221, 223, 226);
         width:auto;
 }
 
