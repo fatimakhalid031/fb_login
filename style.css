@@ -204,7 +204,7 @@ footer {
     height: 160px;
     background-color: white;
     color: #8a8d91;
-    margin-left: 19px;
+    
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
@@ -212,6 +212,7 @@ footer {
 }
 
 .mainfooter {
+    margin-left: 19px;
     display: flex;
     flex-direction: column;
     justify-content: center;
